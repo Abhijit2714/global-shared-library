@@ -1,5 +1,5 @@
 def Call(Map config = [:]) {
-    sh "echo Hello ${config.name}. Company is ${config.comapanyname}."
+    sh "echo Hello ${config.name}. Company is ${config.companyname}."
 }
 
 // def Call(Map param = [:]) {

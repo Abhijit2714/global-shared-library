@@ -1,4 +1,4 @@
-def call(Map config = [:]) {
+def getname(Map config = [:]) {
     sh "echo Hello ${config.name}. Company is ${config.comapanyname}."
 }
 

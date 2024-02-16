@@ -3,7 +3,7 @@ def call(Map config = [:]) {
 }
 
 def Call(Map param = [:]) {
-    sh "echo Hello ${param.address}. Company is ${param.city}."
+    sh "echo address is ${param.address}. city is ${param.city}."
 }
 
 

@@ -2,8 +2,8 @@ def call(Map config = [:]) {
     sh "echo Hello ${config.name}. Company is ${config.comapanyname}."
 }
 
-def call(Map config = [:]) {
-    sh "echo Address is  ${config.address}. city is ${config.city}."
+def call(Map param = [:]) {
+    sh "echo Address is  ${param.address}. city is ${param.city}."
 }
 
 
